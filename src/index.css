@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #a46ea4; /* Purple */
+}
+
+.layer {
+  position: relative;
+}
+
+.color-layer {
+  position: absolute;
+  top: 70%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.color-layer button {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
